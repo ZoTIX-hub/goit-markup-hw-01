@@ -1,0 +1,125 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #2E2F42;
+    font-size: 16px;
+}
+
+.header {
+    color: #FFFFFF;
+}
+
+/* LOGO */
+.nav-logo {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 3%;
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    line-height: 1.16;
+}
+
+.nav-logo:focus {
+    color: #404BBF;
+}
+
+
+/* NAV-LIST */
+.nav-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+    font-family: Roboto, sans-serif;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus,
+.nav-list .link:active {
+    color: #404BBF;
+}
+
+
+
+
+/* INFO */
+
+.info {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+
+.info .link:hover,
+.info .link:focus {
+    color: #404BBF;
+}
+
+/*MAIN*/
+
+.main .header-main {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: .02em;
+    color: #FFFFFF;
+    background-color: #2E2F42;
+}
+
+.main .button-main {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .04em;
+}
+
+/*BUTTON*/
+.main .button-main:hover,
+.main .button-main:focus {
+    background-color: #404BBF;
+}
+
+/*FEATURES*/
+.main .section-features .header-features {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: .02em;
+}
+
+.main .section-features .text-features {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+}
+
+/*IMG*/
+
+.main .team {
+    background-color: #F4F4FD;
+}
+
+.main .team .main-header-team {
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: .02em;
+}
+
+.main .team .header-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: .02em;
+}
+
+.main .team .text-team {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+}
+
+.main .portfolio .main-header-portfolio {
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: .02em;
+}
