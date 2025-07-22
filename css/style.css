@@ -10,7 +10,7 @@ body {
 }
 
 /* LOGO */
-.nav-logo {
+.header .nav-logo {
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
@@ -20,7 +20,7 @@ body {
     color: #4d5ae5;
 }
 
-.nav-logo:focus {
+.header .nav-logo:focus {
     color: #404BBF;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .header .nav-list .link {
-    color: #434455;
+    color: #2e2f42;
 }
 
 .header .nav-list .link:hover,
