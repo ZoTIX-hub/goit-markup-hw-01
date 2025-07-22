@@ -23,6 +23,7 @@ body {
 .nav-logo:focus {
     color: #404BBF;
 }
+
 .header .studio {
     color: #2e2f42;
 }
@@ -59,8 +60,8 @@ body {
     letter-spacing: 0.02em
 }
 
-.header .info .link:hover,
-.header .info .link:focus {
+.header .info .info-list .link:hover,
+.header .info .info-list .link:focus {
     color: #404bbf;
 }
 
@@ -69,6 +70,7 @@ body {
 .main .main-section {
     background-color: #2e2f42;
 }
+
 .main .main-section .header-main {
     font-weight: 700;
     font-size: 56px;
@@ -99,11 +101,13 @@ body {
 .main .section-features .features-list {
     background-color: #FFFFFF;
 }
+
 .main .section-features .header-features {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: .02em;
+    color: #2e2f42;
 }
 
 .main .section-features .text-features {
@@ -113,10 +117,10 @@ body {
     color: #434455;
 }
 
-/*IMG*/
+/*TEAM*/
 
 .main .team {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .main .team .main-header-team {
@@ -126,6 +130,10 @@ body {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+}
+
+.main .team .team-list {
+    background-color: #FFFFFF;
 }
 
 .main .team .header-team {
@@ -145,7 +153,7 @@ body {
 
 
 
-                            /*PORTFOLIO*/
+/*PORTFOLIO*/
 .main .portfolio .main-header-portfolio {
     font-size: 36px;
     line-height: 1.11;
@@ -154,6 +162,7 @@ body {
     text-transform: capitalize;
     color: #2e2f42;
 }
+
 .main .portfolio .portfolio-list .features-header {
     font-weight: 500;
     font-size: 20px;
@@ -161,12 +170,14 @@ body {
     letter-spacing: .02em;
     color: #2e2f42;
 }
+
 .main .portfolio .portfolio-list .features-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: .02em;
     color: #434455;
 }
+
 .footer {
     background-color: #2e2f42;
 }
