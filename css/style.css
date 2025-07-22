@@ -71,6 +71,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: .04em;
+    cursor: pointer;
 }
 
 /*BUTTON*/
@@ -122,4 +123,94 @@ body {
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: .02em;
+}
+
+                            /*banking*/
+.main .portfolio .portfolio-list .banking-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: .02em;
+}
+.main .portfolio .portfolio-list .banking-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: #434455;
+}
+
+.main .portfolio .portfolio-list .payment-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: .02em;
+}
+
+.main .portfolio .portfolio-list .payment-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: #434455;
+}
+.main .portfolio .portfolio-list .mediation-header {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: .02em;
+}
+
+.main .portfolio .portfolio-list .mediation-text {
+font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: #434455;
+}
+
+.main .portfolio .portfolio-list .taxi-header {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: .02em;
+}
+
+.main .portfolio .portfolio-list .taxi-text {
+font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: #434455;
+}
+
+.main .portfolio .portfolio-list .illustrations-header {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: .02em;
+}
+
+.main .portfolio .portfolio-list .illustrations-text {
+font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: #434455;
+}
+ .main .portfolio .portfolio-list .courses-header {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: .02em;
+ }
+
+ .main .portfolio .portfolio-list .courses-text {
+font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    color: #434455;
+ }
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer .footer-text {
+    color: #F4F4FD;
 }
