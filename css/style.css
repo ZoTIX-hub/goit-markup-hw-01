@@ -290,6 +290,9 @@ body {
     
 }
 
+.portfolio .container {
+    border-top: none;
+}
 .portfolio-card-list img {
     width: 100%;
     height: auto;
