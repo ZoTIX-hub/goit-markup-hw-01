@@ -267,6 +267,10 @@ body {
     padding: 120px 0;
 }
 
+.portfolio .container {
+    border-top: none;
+}
+
 .main-header-portfolio {
     font-size: 36px;
     line-height: 1.11;
