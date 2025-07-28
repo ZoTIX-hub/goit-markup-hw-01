@@ -259,7 +259,7 @@ body {
     color: #434455;
 }
 
-
+/*PORTFOLIO*/
 .portfolio {
     padding: 120px 0;
 }
@@ -297,6 +297,7 @@ body {
 .description-portfolio {
     padding: 32px 16px;
     border-top: none;
+    border:1px solid #e7e9fc;
 }
 
 .features-header {
@@ -315,7 +316,7 @@ body {
     color: #434455;
 }
 
-/* Футер */
+/* FOOTER */
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
