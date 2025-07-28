@@ -1,4 +1,4 @@
-/* BASIC STYLES*/
+/* BASIC STYLES */
 h1,
 h2,
 h3,
@@ -39,6 +39,9 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.portfolio .container {
     border-top: none;
 }
 
@@ -236,7 +239,6 @@ body {
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 1px 6px rgba(46, 47, 66, 0.08);
-   
 }
 
 .description-co-workers {
@@ -260,7 +262,7 @@ body {
     color: #434455;
 }
 
-/*PORTFOLIO*/
+/* PORTFOLIO */
 .portfolio {
     padding: 120px 0;
 }
@@ -287,9 +289,7 @@ body {
     border: 1px solid #e7e9fc;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08);
-    
 }
-
 
 .portfolio-card-list img {
     width: 100%;
@@ -298,7 +298,8 @@ body {
 
 .description-portfolio {
     padding: 32px 16px;
-    border:1px solid #e7e9fc;
+    border-top: none;
+    border: 1px solid #e7e9fc;
 }
 
 .features-header {
