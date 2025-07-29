@@ -267,9 +267,7 @@ body {
     padding: 120px 0;
 }
 
-.portfolio .container {
-    border-top: none;
-}
+
 
 .main-header-portfolio {
     font-size: 36px;
@@ -302,7 +300,10 @@ body {
 
 .description-portfolio {
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .features-header {
