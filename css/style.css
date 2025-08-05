@@ -62,7 +62,9 @@ body {
 .header .container {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc;
+    align-items: center;
+    padding: 0 15px;
+    height: 72px;
 }
 
 .navigation-menu {
@@ -79,26 +81,27 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    text-decoration: none;
 }
 
-.nav-logo:focus {
+.nav-logo:focus,
+.nav-logo:hover {
     color: #404BBF;
 }
 
 .studio {
     color: #2e2f42;
-    position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.studio:hover {
-    color: rgba(64, 75, 191, 1);
+.studio:hover,
+.studio:focus {
+    color: #404BBF;
 }
 
 .nav-list {
     display: flex;
     gap: 40px;
-    align-items: center;
 }
 
 .nav-list .link {
@@ -110,6 +113,7 @@ body {
     color: #2e2f42;
     padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
 }
 
 .nav-list .link:hover,
@@ -119,20 +123,19 @@ body {
 }
 
 .nav-list .link-studio {
-    color: #2e2f42;
+    color: #404BBF;
     position: relative;
 }
 
 .nav-list .link-studio:after {
     content: '';
     width: 100%;
-    display: block;
+    height: 4px;
+    background-color: #404BBF;
+    border-radius: 2px;
     position: absolute;
     left: 0;
-    bottom: 0;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #404BBF;
+    bottom: -1px;
     opacity: 0;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -144,7 +147,6 @@ body {
 
 .info {
     font-style: normal;
-    margin-left: auto;
 }
 
 .info-list {
@@ -158,19 +160,20 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    position: relative;
+    text-decoration: none;
 }
 
 .info-list .link:hover,
-.info-list .link:focus {
+.info-list .link:focus,
+.info-list .link:active {
     color: #404BBF;
 }
-
 /* MAIN */
 .main-section {
     background-color: #2e2f42;
     padding: 188px 0;
-    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1.jpg);
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+    background-image: url(/images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -363,6 +366,9 @@ body {
 .team-social-icon:focus,
 .team-social-icon:hover {
   background-color: #404bbf;
+}
+.socialcs-icon {
+    fill: #f4f4fd;
 }
 
 .text-team {
