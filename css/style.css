@@ -172,14 +172,14 @@ body {
 .main-section {
     background-color: #2e2f42;
     padding: 188px 0;
-    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
-    background-image: url(/images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     box-shadow: inset 0 0 10px #2E2F42B2;
     max-width: 1440px;
     margin: 0 auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office\ 1.jpg);
+       
 }
 .main-section-list .features-card {
     display: flex;
