@@ -697,6 +697,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.04em;
     border: 1px solid rgba(46, 47, 66, 0.4);
+    color: rgba(46, 47, 66, 0.4);
 }
 
 .form-textarea:focus {
