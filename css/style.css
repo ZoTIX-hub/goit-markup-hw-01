@@ -664,6 +664,9 @@ body {
     margin-bottom: 4px;
     flex-direction: column;
 }
+#user-comment::placeholder {
+    color: #2E2F4266;
+}
 
 .form-input {
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -739,6 +742,7 @@ body {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .input-checked:checked+.checkbox-label .checkbox-span {
@@ -763,6 +767,7 @@ body {
     position: relative;
 }
 
+
 .comment-div {
     margin-bottom: 16px;
 }
@@ -776,4 +781,7 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
+}
+#email::placeholder {
+    color: #FFFFFF;
 }
